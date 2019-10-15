@@ -1,0 +1,8 @@
+﻿<Window x:Class="HR.Themes.WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:prototype="clr-namespace:HR.Themes.Prototype.WPF;assembly=HR.Themes.Prototype.WPF"  
+        Height="450" Width="450"
+      Title="Style application - www.HighRobotics.com">
+    <prototype:MainWindow_UC />
+</Window>

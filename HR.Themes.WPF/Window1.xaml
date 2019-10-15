@@ -1,0 +1,23 @@
+﻿<Window
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	x:Class="HR.Themes.WPF.Window1"
+	x:Name="Window"
+	Title="Window1"
+	Width="640" Height="480">
+	<Window.Resources>
+		<ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <!-- Reference main style dictionary-->
+                <ResourceDictionary Source="pack://application:,,,/HR.Themes.Fischer.WPF;component/Style.xaml"/>
+                <!-- Reference color style -->
+                <ResourceDictionary Source="pack://application:,,,/HR.Themes.Fischer.WPF;component/Colors/Colors_Blue.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+	</Window.Resources>
+
+	<Grid x:Name="LayoutRoot">
+		<Button Content="Button" HorizontalAlignment="Left" Margin="57.057,68.957,0,0" VerticalAlignment="Top" IsDefault="True"/>
+		<Button Content="Button" HorizontalAlignment="Left" Margin="133.206,68.957,0,0" VerticalAlignment="Top"/>
+	</Grid>
+</Window>
